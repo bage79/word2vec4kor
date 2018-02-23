@@ -9,9 +9,10 @@
 - Tokenized: white-space
 - Embedding Dimension: 300
 - Skip-Gram + Negative Sampling + Subsampling
-- ![demo](https://github.com/bage79/korean_word2vec/raw/master/img/demo.png)
+![demo](https://github.com/bage79/word2vec4kor/raw/master/img/demo.png)
 	
-### `ko.wikipedia.org.sentences` Raw Corpus from `https://ko.wikipedia.org`
+### `ko.wikipedia.org.sentences` raw corpus 
+- from `https://ko.wikipedia.org`
 - Total sentences: about 3,115,431
 ```angular2html
 wget https://gitlab.com/bage79/nlp4kor-ko.wikipedia.org/raw/master/data/ko.wikipedia.org.sentences.gz
@@ -25,5 +26,5 @@ gzip -d ko.wikipedia.org.sentences.gz
 ### Parse dump file(mediawiki format) to text file
 - `https://pypi.python.org/pypi/mediawiki-parser/`
 
-### word2vec open source
+### Word2vec open source
 - `https://github.com/theeluwin/pytorch-sgns`
