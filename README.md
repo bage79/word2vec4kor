@@ -3,8 +3,7 @@
 
 ### `tensorboard_log` word2vec visualization data 
 - tensorboard embedding(projector) file format
-- window size: 1 or 5
-- window side: both, front, back
+- window size: 1
 - Total unique words: 10,000
 - Tokenized: white-space
 - Embedding Dimension: 300
