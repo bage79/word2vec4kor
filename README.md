@@ -9,8 +9,13 @@
 - Tokenized: white-space
 - Embedding Dimension: 300
 - Skip-Gram + Negative Sampling + Subsampling
+```
+git clone https://github.com/bage79/word2vec4kor
+cp -r word2vec4kor/tensorboard_log ~
+tensorboard --logdir=~/tensorboard_log
+```
 ![demo](https://github.com/bage79/word2vec4kor/raw/master/img/demo.png)
-	
+
 ### `ko.wikipedia.org.sentences` raw corpus 
 - from `https://ko.wikipedia.org`
 - Total sentences: about 3,115,431
