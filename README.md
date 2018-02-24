@@ -1,5 +1,7 @@
 # word2vec4kor
 - Word2vec for Korean
+- Keynote: https://github.com/bage79/word2vec4kor/raw/master/docs/korean_embedding_20180224_KCD.pdf
+
 
 ### `tensorboard_log` word2vec visualization data 
 - tensorboard embedding(projector) file format
