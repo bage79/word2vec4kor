@@ -27,7 +27,7 @@ gzip -d ko.wikipedia.org.sentences.gz
 
 # Tips    
 ### Download korean Wikipedia dump file
-- from `https://dumps.wikimedia.org/kowiki/20180220/`
+- `https://dumps.wikimedia.org/kowiki/20180220/`
 
 ### Parse dump file(mediawiki format) to text file
 - `https://pypi.python.org/pypi/mediawiki-parser/`
