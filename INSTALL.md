@@ -27,6 +27,7 @@ gzip -d ko.wikipedia.org.sentences.gz
 
 ### Generate a vocaburary and a a train dataset (from the raw corpus)
 ```
+mkdir ~/workspace/word2vec4kor/data
 cd ~/workspace/pytorch-sgns
 python3 ./preprocess.py --window 5 --max_vocab 20000 --vocab ~/workspace/word2vec4kor/corpus/sample.ko.wikipedia.org.sentences --corpus ~/workspace/word2vec4kor/corpus/sample.ko.wikipedia.org.sentences --data_dir ~/workspace/word2vec4kor/data/
 ```
@@ -40,7 +41,7 @@ python3 ./train.py --cuda --name sample.ko.wikipedia --e_dim 300 --n_negs 20 --e
 ```
 # run on CPU
 cd ~/workspace/pytorch-sgns
-python3 ./train.py --name ko.wikipedia --e_dim 300 --n_negs 20 --epoch 10 --mb 4096 --ss_t 1e-5 --weights --data_dir ~/workspace/word2vec4kor/data --save_dir ~/workspace/word2vec4kor/models
+python3 ./train.py --name sample.ko.wikipedia --e_dim 300 --n_negs 20 --epoch 10 --mb 4096 --ss_t 1e-5 --weights --data_dir ~/workspace/word2vec4kor/data --save_dir ~/workspace/word2vec4kor/models
 ```
 
 ### Convert word2vec from numpy format into tensorboard format.
