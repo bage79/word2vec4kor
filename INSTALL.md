@@ -1,15 +1,15 @@
-### Install word2vec open-source (for Pytorch)
-```
-cd ~/workspace
-git clone https://github.com/theeluwin/pytorch-sgns
-```
-
 ### Make workspace directory.
 ```
 mkdir ~/workspace
 cd ~/workspace
 git clone http://github.com/bage79/word2vec4kor
 mkdir ~/workspace/word2vec4kor/corpus
+```
+
+### Install word2vec open-source (for Pytorch)
+```
+cd ~/workspace
+git clone https://github.com/theeluwin/pytorch-sgns
 ```
 
 ### Download korean wikipedia corpus (text format)
