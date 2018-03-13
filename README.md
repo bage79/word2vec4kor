@@ -11,9 +11,11 @@
 - Embedding Dimension: 300
 - Skip-Gram + Negative Sampling + Subsampling
 ```
+mkdir ~/workspace
+cd ~/workspace
+
 git clone https://github.com/bage79/word2vec4kor
-cp -r word2vec4kor/tensorboard_log ~
-tensorboard --logdir=~/tensorboard_log
+tensorboard --logdir=~/workspace/word2vec4kor/tensorboard_log
 ```
 ![demo](https://github.com/bage79/word2vec4kor/raw/master/img/demo.png)
 
