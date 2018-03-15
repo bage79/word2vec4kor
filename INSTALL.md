@@ -1,3 +1,15 @@
+### Prerequisite
+- python3.6
+    - recommend Anaconda (https://www.anaconda.com/download/)
+- tensorflow==1.5.0 (https://www.tensorflow.org/install/)
+- tensorflow-tensorboard==1.5.1 (https://www.tensorflow.org/install/)
+- torch==0.3.0.post4 (http://pytorch.org)
+```
+pip install --upgrade tensorflow==1.5.0
+pip install --upgrade tensorflow-tensorboard==1.5.1
+pip install --upgrade torch==0.3.0.post4
+```
+
 ### Make workspace directory.
 ```
 mkdir ~/workspace
