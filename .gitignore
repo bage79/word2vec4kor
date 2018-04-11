@@ -94,8 +94,8 @@ ENV/
 .ropeproject
 
 .idea/
+**/logs/
 
+*.sentences
 *.dat
 *.pt
-ko.wikipedia.org.sentences
-sample.ko.wikipedia.org.sentences
